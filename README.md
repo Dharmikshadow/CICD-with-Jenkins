@@ -18,7 +18,7 @@ This project demonstrates deploying a website clone using a set of DevOps tools 
 ## Infrastructure Setup Using Terraform
 1. **Clone the Repository** (Open Command Prompt & run below):
    ```bash
-   git clone https://github.com/pandacloud1/DevopsProject2.git
+   git clone https://github.com/Dharmikshadow/CICD-with-Jenkins.git
    cd DevopsProject2
    code .   # this command will open VS code in backend
    ```
