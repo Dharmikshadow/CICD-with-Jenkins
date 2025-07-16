@@ -69,6 +69,7 @@ This will create the EC2 instance, security groups, and install necessary tools 
 Create and run the build pipeline in Jenkins. The pipeline will build, analyze, and push the project Docker image to ECR.
 
 Reference - docs.aws.amazon.com/cli/latest/refernece/configure/set.html
+
 Create a Jenkins pipeline by adding the following script:
 
 ### Build Pipeline
