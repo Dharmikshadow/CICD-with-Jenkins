@@ -1,8 +1,7 @@
-# Amazon Prime Clone Deployment Project
-![Pipeline Overview](./src/Overview.png)
+Enterprise Java CI/CD with Jenkins, Gitops and Kubernetes observability
 
 ## Project Overview
-This project demonstrates deploying an Amazon Prime clone using a set of DevOps tools and practices. The primary tools include:
+This project demonstrates deploying a website clone using a set of DevOps tools and practices. The primary tools include:
 
 - **Terraform**: Infrastructure as Code (IaC) tool to create AWS infrastructure such as EC2 instances and EKS clusters.
 - **GitHub**: Source code management.
@@ -15,17 +14,6 @@ This project demonstrates deploying an Amazon Prime clone using a set of DevOps 
 - **AWS EKS**: Container management platform.
 - **ArgoCD**: Continuous deployment tool.
 - **Prometheus & Grafana**: Monitoring and alerting tools.
-
-## Pre-requisites
-1. **AWS Account**: Ensure you have an AWS account. [Create an AWS Account](https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-creating.html)
-2. **AWS CLI**: Install AWS CLI on your local machine. [AWS CLI Installation Guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-3. **VS Code (Optional)**: Download and install VS Code as a code editor. [VS Code Download](https://code.visualstudio.com/download)
-4. **Install Terraform in Windows**: Download and install Terraform in Windows [Terraform in Windows](https://learn.microsoft.com/en-us/azure/developer/terraform/get-started-windows-bash)
-
-## Configuration
-### AWS Setup
-1. **IAM User**: Create an IAM user and generate the access and secret keys to configure your machine with AWS.
-2. **Key Pair**: Create a key pair named `key` for accessing your EC2 instances.
 
 ## Infrastructure Setup Using Terraform
 1. **Clone the Repository** (Open Command Prompt & run below):
